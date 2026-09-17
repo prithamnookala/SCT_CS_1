@@ -31,62 +31,6 @@ git clone [https://github.com/YOUR-USERNAME/caesar-cipher.git](https://github.co
 
 cd caesar-cipher
 
-2. Run the Program
-
-
-
-python main.py
-
-💡 How It Works
-
-The Caesar Cipher is a classic substitution cipher where each letter in the plaintext is shifted by a fixed number of positions down the alphabet.
-
-Encryption: E(x) = (x + n) mod 26
-
-Decryption: D(x) = (x - n) mod 26
-
-where x is the letter's index (0–25) and n is the shift key.
-
-📖 Example Usage
-
-Encrypting a Message
-
-
---- Caesar Cipher Program ---
-
-Select an option:
-1. Encrypt message
-2. Decrypt message
-3. Exit
-Enter choice (1, 2, or 3): 1
-
-Enter the message to encrypt: Hello, World! 123
-Enter the shift value (e.g., 3): 3
-
-Result (Encrypted): Khoor, Zruog! 123
-
-Decrypting a Message
-
-
-Select an option:
-1. Encrypt message
-2. Decrypt message
-3. Exit
-
-Enter choice (1, 2, or 3): 2
-
-Enter the message to decrypt: Khoor, Zruog! 123
-Enter the shift value (e.g., 3): 3
-
-Result (Decrypted): Hello, World! 123
-
-📁 Repository Structure
-
-caesar-cipher/
-│
-├── main.py          # Main Python program containing cipher logic & CLI
-├── README.md        # Project documentation
-└── .gitignore       # Git ignore rules for Python environment
 
 📜 License
 
